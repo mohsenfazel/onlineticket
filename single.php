@@ -10,7 +10,7 @@
 						<?php while (have_post()):the_post()>
 						<div class="blog-left-grid single-left-grid">
 							<p>Posted By <a href="#"><?php the_author();></a> &nbsp;&nbsp;<?php the_date();> &nbsp;&nbsp; <a href="#"><?php comments_number();></a></p>
-							<img src="images/banner1.jpg" alt="">
+							<?php the_post_thumbnail();>
 							<div class="blog-left-right">
 								<?php the_content();>
 						</div>
