@@ -15,9 +15,9 @@ class Autoloader
         $classParts= explode('\\',$class);
         $className = implode('/',$classParts);
         $className = wpx_dir.DIRECTORY_SEPARATOR.$className.'.php';
+
 //        var_dump($className);
 //        exit();
-        
         if (file_exists($className))
         {
             include_once $className;
