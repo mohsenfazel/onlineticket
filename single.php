@@ -1,4 +1,4 @@
-<?php get_header();>
+<?php get_header();?>
 <!-- banner-bottom -->
 <div class="banner-bottom">
 	<!-- container -->
@@ -6,16 +6,16 @@
 		<div class="faqs-top-grids">
 			<div class="blog-grids">
 				<div class="col-md-8 blog-left">
-				    <?php if(have_post())>
-						<?php while (have_post()):the_post()>
+				    <?php if(have_posts()): ?>
+						<?php while (have_posts()):the_post()?>
 						<div class="blog-left-grid single-left-grid">
-							<p>Posted By <a href="#"><?php the_author();></a> &nbsp;&nbsp;<?php the_date();> &nbsp;&nbsp; <a href="#"><?php comments_number();></a></p>
-							<?php the_post_thumbnail();>
+							<p>Posted By <a href="#"><?php the_author();?></a> &nbsp;&nbsp;<?php the_date();?> &nbsp;&nbsp; <a href="#"><?php comments_number();?></a></p>
+							<?php the_post_thumbnail();?>
 							<div class="blog-left-right">
-								<?php the_content();>
+								<?php the_content();?>
 						</div>
-						  <?php endwhile;>
-					<?php endif
+						  <?php endwhile;?>
+					<?php endif;?>
 						<div class="response">
 							<h3>Responses</h3>
 							<div class="media response-info">
@@ -81,7 +81,7 @@
 						</div>
 					</div>
 				</div>
-				<?php get_sidebar();>
+				<?php get_sidebar();?>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -89,4 +89,4 @@
 	<!-- //container -->
 </div>
 <!-- //banner-bottom -->
-<?php get_footer();>
+<?php get_footer();?>
