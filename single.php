@@ -17,7 +17,7 @@
 							<?php the_content(); ?>
                         </div>
                         <!-- if comments are open or we have at least one comment, load up the comment template.-->
-						<?php get_template_part( 'partials/activate_comment' ); ?>
+						<?php get_template_part( 'partials/activate-comment' ); ?>
                         <!-- if comments are open or we have at least one comment, load up the comment template.-->
 						<?php endwhile; ?>
 						<?php endif; ?>
