@@ -8,3 +8,4 @@ function main_menu_ticket() {
 }
 
 add_action( 'after_setup_theme', 'main_menu_ticket' );
+\Application\Service\Router\Router::register();
