@@ -1,6 +1,4 @@
-<!--style for comment-->
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/comments/comment_style.css' ?>">
-<!--style for comment-->
+
 <div class="opinion">
     <div class="custom-comments">
         <div class="container">

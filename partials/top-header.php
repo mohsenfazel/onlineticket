@@ -28,7 +28,7 @@
 						wp_nav_menu( [ 'theme_location' => 'top-main-menu' ] );
 
 					else:
-						echo '<span>ّرای این قسمت یک منو ایجاد کنید</span>';
+						echo '<span>ّبرای این قسمت یک منو ایجاد کنید</span>';
 					endif;
 					?>
                     <!--/dynamic menu-->
