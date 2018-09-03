@@ -1,6 +1,6 @@
 <?php
 //This array creates the file path for the desired page
-//routes 
+//routes
 return [
 //	 Example for input path in the array
 //	'/store'        => 'Application\Controllers\Store\StoreController::index',
